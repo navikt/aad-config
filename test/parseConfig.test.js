@@ -1,5 +1,6 @@
-const parseConfig = require('../lib/parseConfig');
 const { expect } = require('chai');
+const parseConfig = require('../lib/parseConfig');
+
 
 describe('parsing yaml config', () => {
     it('should fail on malformed input', () => {
