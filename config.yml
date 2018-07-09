@@ -1,0 +1,9 @@
+applications:
+  - name: gosys
+    token_payload:
+      - navident
+      - security_groups
+    callback_uris:
+      - http://localhost:8085/gosys/callback
+      - https://gosys.nais.preprod.local/gosys/callback
+      - https://gosys-t8.nais.preprod.local/gosys/callback
